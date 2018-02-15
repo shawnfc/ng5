@@ -1,0 +1,40 @@
+$dark: #2885C4;
+$light: #57B3F1;
+$btn-bg: #a5f883;
+$btn-color: #003a61;
+$life-bg: #3fa0e1;
+
+.container {
+    display: grid;
+    grid-template-columns: 50% auto;
+    .col {
+        padding: .4em 1.3em;
+    }
+}
+.color-dark {
+    background: $dark;
+}
+.color-light {
+    background: $light;
+}
+input.txt {
+    border: 0;
+    padding: 1em;
+    width: 80%;
+    margin-bottom: 2em;
+}
+input.btn {
+    border: 0;
+    display: block;
+    padding: 1em 3em;
+    background: $btn-bg;
+    color: $btn-color;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+.life-container {
+    background: $life-bg;
+    padding: .5em;
+    font-weight: bold;
+    cursor: pointer;
+}
